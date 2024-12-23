@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!------- BootStrap link Css-------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity ="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-------Font Awesome---->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Furqan's Portfilo</title>
+    <link rel="icon" type="image/png" href="profilePicture\furqanProfile.png" sizes="96x96" />
+    
+  </head>
+  <body>
+    <!--------------- Backgound Video------------->
+
+    <div class="video-container">
+    <video autoplay loop muted playsinline class="backVideo ">
+      <source src="backVideo\video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    
+
+    <!-------- Navbar ---------->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-sm">
+        
+        <!----- Logo on the left ----->
+        <a class="navbar-brand " href="#">
+          <img src="profilePicture\furqanProfile.png" alt="" class="navImg">
+           Furqan-Asad
+        </a>
+
+        
+        <div class="d-flex align-items-center">
+        <!---- Toggler for mobile view------->
+        
+        <button
+        class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon navbarToggleIcon"></span>
+        </button>
+        <i class="fa-solid fa-moon moon-icon" id="moonIcon" style="color: white;"></i>
+        <i class="fa-regular fa-sun" id="sunIcon" style="display: none;"></i>
+      </div>
+        
+          
+        
+
+        <!---------- Navbar Links on the right --------------->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active"  href="#" id="home">HOME</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link active"  id="about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"   id="service">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="profession">PROFESSION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="contactME" >CONTACT</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+      
+    </nav>
+
+    <!------- Experience div --------->
+      <div class="container text-center experience" id="homePage">
+        <div class="row align-items-center">
+          <div class="col-auto col-sm-auto col-md-2"></div>
+
+          <div class="col-12 col-sm-12 col-md-8">
+            <br /><br />
+            <h5 class="aboutText">
+              VIDEO EDITOR & MOTION GRAPICS ANIMATION
+            </h5>
+            <h1 class="furqanText">FURQAN ASAD</h1>
+            <p >
+              As a dedicated video editor with a deep love for storytelling, 
+              I craft visually captivating content that resonates.
+              Specializing in video editing and motion graphics animation, 
+              I bring ideas to life using Adobe Premiere Pro and After Effects.
+               Driven by a constant desire to learn and grow, 
+               I am committed to enhancing my skills and pushing creative
+               boundaries every day.
+            </p>
+          </div>
+
+          <div class="col-auto col-sm-auto col-md-2"></div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-sm-2 col-md-2"></div>
+
+          <div class="col-sm-8 col-md-8">
+            <br />
+            <a href="CVfolder\CV.pdf" >
+            <button type="button" class="cvButton"  > 
+                Check CV
+                <i
+                class="fa-solid fa-down-long bounce-animation"
+                style="font-size: 18px"
+                ></i>
+              </button>
+            </a>
+          </div>
+
+          <div class="col-sm-2 col-md-2"></div>
+        </div>
+      </div>
+    
+  </div>
+
+    <!--About me  -->
+    <div class="backgroundBody" > 
+      <!-- after body color -->
+      <div class="container text-center aboutMe" id="aboutPage">
+        <div class="row align-items-center">
+          <div class="col-sm-2 col-md-2"></div>
+
+          <div class="col-sm-8 col-md-8 ">
+            <br /><br />
+            <i class="fa-regular fa-user" ></i>
+            <div
+              class="vertical-line"></div>
+            <h2 style="font-size:2.5rem; ">About me</h2>
+            <p style="font-size:1rem; ">
+              With a keen eye for detail and a passion for visual storytelling,
+              I turn concepts into captivating content. Each frame is
+              meticulously crafted to deliver creativity and impact.
+            </p>
+          </div>
+
+          <div class="col-sm-2 col-md-2"></div>
+        </div>
+      
+
+      <!----Buttons---->
+        <div class="row align-items-center">
+          <div class="col-2 col-sm-2 col-md-2"></div>
+          <!--About button-->
+          <div class="col-4 col-sm-4 col-md-4">
+            <button class="aboutBtn" type="button" id="about_Btn">ABOUT</button>
+          </div>
+          <!--Skill button-->
+          <div class="col-4 col-sm-4 col-md-4">
+            <button class="skillBtn" type="button" id="skill_Btn">SKILL</button>
+          </div>
+          <div class="col-2 col-md-2 col-sm-2"></div>
+        </div>
+
+      <!------Profile IMAGE----->
+      <div id="profileDisplay">
+        <div class="row align-items-center" >
+          <div class="col-3 col-sm-3 col-lg-4"></div>
+
+          <div class="col-6  col-sm-6 col-lg-4 profile">
+            <div class="profileInside ">   
+                <img src="profilePicture\furqanProfile.png" alt="">
+              </div>
+
+           </div>
+          <div class="col-3 col-sm-3  col-lg-4"></div>
+        </div>
+        
+        <div class="row align-items-center pb-5">
+          <div class="col-1"></div>
+          <div class="col-10">
+            <h1>
+              <b  class="textFurqan">FURQAN ASAD </b>  
+            </h1>
+            
+            <p style="font-size: 1rem;">
+            I combine technical expertise with creativity to deliver high-quality 
+            content tailored to your unique needs. Whether you're looking to enhance
+             your YouTube channel, create promotional videos, or develop engaging 
+             social media content, I've got you covered.</p>
+          </div>
+          <div class="col-1 "></div>
+        </div>
+      </div>
+<!-- Skills bar -->
+ <div id="skillDisplay" style="display: none;">
+      <div class="row align-items-center pt-5">
+
+        <div class="col-12 col-md-6">
+          <div class="skillName text-start">VIDEO EDITING</div>
+          <div class="skill-bar" >
+            <div class="skill-per" per="90%" style="max-width: 85%;"></div> 
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="skillName text-start">THUMBNAILS</div>
+          <div class="skill-bar" >
+            <div class="skill-per" per="95%" style="max-width: 95%;"></div> 
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="row align-items-center pt-2">
+        <div class="col-12 col-md-6 "> 
+          <div class="skillName text-start">MOTION GRAPICS</div>
+          <div class="skill-bar" >
+            <div class="skill-per" per="80%" style="max-width: 75%;"></div> 
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="skillName text-start">LOGO DESIGN</div>
+          <div class="skill-bar" >
+            <div class="skill-per" per="60%" style="max-width: 60%;"></div> 
+          </div>
+        </div>
+
+     
+      </div>
+    </div>
+    </div>
+      <!----Service----->
+      
+        <div class="container text-center " id="service_Section" >
+          <div class="row align-items-center">
+            <div class="col-auto col-sm-auto col-md-2"></div>
+
+            <div class="col-12 col-sm-12 col-md-8">
+              <br /><br />
+              <i
+                class="fa-solid fa-infinity rotate-animation"></i>
+
+              <div
+                class="vertical-line"></div>
+              <h2 style="font-size:3rem; ">My Service</h2>
+              <p style="font-size:1.2rem; ">Unlocking Creative Potential : Explore My Services</p>
+            </div>
+
+            <div class="col-auto col-sm-auto col-md-2"></div>
+          </div>
+
+      
+          
+        
+
+        <!-- Skill div's -->
+        
+        
+        <div class="row align-items-center justify-content-center g-3">
+          <!-- First Column -->
+          <div class="col-12 col-sm-8 col-md-6 col-lg-4 pt-3">
+            <div class="card-container">
+              <div class="card">
+                <!-- Front of the card -->
+                <div class="card-front">
+                  <h2>COLOR GRADE</h2>
+                </div>
+                <!-- Back of the card -->
+                <div class="card-back">
+                  <video autoplay loop muted playsinline>
+                    <source src="fil_Div/COLOR GRADE.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Second Column -->
+          <div class="col-12 col-sm-8 col-md-6 col-lg-4 pt-3">
+            <div class="card-container">
+              <div class="card">
+                <!-- Front of the card -->
+                <div class="card-front">
+                  <h2>GREEN SCREEN</h2>
+                </div>
+                <!-- Back of the card -->
+                <div class="card-back">
+                  <video autoplay loop muted playsinline>
+                    <source src="fil_Div/green screen removal.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Third Column -->
+          <div class="col-12 col-sm-8 col-md-6 col-lg-4 pt-3">
+            <div class="card-container">
+              <div class="card">
+                <!-- Front of the card -->
+                <div class="card-front">
+                  <h2>THUMBNAILS</h2>
+                </div>
+                <!-- Back of the card -->
+                <div class="card-back">
+                  <video autoplay loop muted playsinline>
+                    <source src="fil_Div/thumbnails.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      
+
+          <!----My Profession ---->
+          <div class="container-fluid">
+          <div class="container text-center" id="professionPage">
+            <div class="row align-items-start">
+              <div class="col-auto col-sm-auto col-md-2"></div>
+
+              <div class="col-12 col-sm-12 col-md-8">
+                <br /><br />
+                <i class="fa-regular fa-image"></i>
+                <div
+                  class="vertical-line"></div>
+                <h2 style="font-size:2.7rem;" >My Profession</h2>
+                <p style="font-size:1.1rem;" >Showcasing Creative Excellence and Professional Mastery</p>
+              </div>
+
+              <div class="col-auto col-sm-auto col-md-2"></div>
+            </div>
+          
+
+          <!--------Videos Button-------->
+
+         
+          <div class="container text-center">
+              <div class="row align-items-center serviceButton">
+                <div class="col-1"></div>
+
+                <div class="col-10">
+                  <button type="button" id="videos">Videos</button>
+                  <button type="button"  id="thumnail">
+                    Thumbnails
+                  </button>
+                  <button type="button" id="reels">Reels</button>
+                </div>
+                <div class="col-1"></div>
+              </div>
+              </div>
+          </div>
+
+          <div class="videosRow" id="videosRow">
+            <div class="container text-center">
+              <div class="row align-items-center">
+                <!-- Video 1 -->
+                <div class="col-12 col-sm-6 col-lg-6">
+                  <video
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    data-bs-toggle="modal"
+                    data-bs-target="#videoModal"
+                    data-src="videos\great white shark new 16 mb.mp4"
+                  >
+                    <source src="videos\great white shark new 16 mb.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              
+                <!-- Video 2 -->
+                <div class="col-12 col-sm-6 col-lg-6">
+                  <video
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    data-bs-toggle="modal"
+                    data-bs-target="#videoModal"
+                    data-src="videos\r kelly new, small size.mp4"
+                  >
+                    <source src="videos\r kelly new, small size.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                
+              </div>
+
+             <!---------------Videos Button Row --------------->
+             <div class="row align-items-center pt-5">
+              <div class="col-1">
+                
+              </div>
+              <div class="col-10">
+                <i class="fa-regular fa-circle-play" style="font-size:60px;"></i>
+                <div class="vertical-line"></div>
+                <h2 style="font-size:2.5rem ;">OTHER PROJECTS</h2>
+              </div>
+              <div class="col-1">
+                
+              </div>
+            </div>
+
+            <div class="videos_BTN">
+
+              <div class="row align-items-center pt-5">
+                <div class="col-12 col-sm-12 col-md-6 pt-2">
+                 <a href="https://www.youtube.com/watch?v=73C-FzqCN8Q" target="_blank"><button type="button" >IMRAN KHAN</button></a>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 pt-2">
+                  <a href="https://youtu.be/BHhX6lDs1j4" target="_blank"><button type="button" >US VS AL-QAIDA</button></a>
+                </div>
+              </div>
+              <div class="row align-items-center ">
+                <div class="col-12 col-sm-12 col-md-6 pt-2">
+                  <a href="https://youtu.be/T3zPmy4hWxw" target="_blank"><button type="button" >MEGALODON</button></a>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 pt-2">
+                  <a href="https://youtu.be/yAWcZEIdBXw" target="_blank"><button type="button" >Harry and Meghan</button></a>
+                </div>
+                
+              </div>
+            </div>
+            </div>
+          </div>
+
+            <!-- Modal for videos popup -->
+            <div
+              class="modal fade"
+              id="videoModal"
+              tabindex="-1"
+              aria-labelledby="videoModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">
+                      Video Playback
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body text-center">
+                    <video
+                      id="popupVideo"
+                      controls
+                      autoplay
+                      style="width: 100%; height: auto"
+                    >
+                      <source src="" type="video/mp4" />
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!---------Thumnails Section -------->
+          <div class="imageRow" id="imageRow">
+            <div class="container text-center">
+              <div class="row align-items-center row-gap">
+                <div class="col-4">
+                  <img src="Thumnail\justice.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="Thumnail\off.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="Thumnail\viking.png" alt="" />
+                </div>
+              </div>
+
+              <div class="row align-items-center row-gap">
+                <div class="col-4">
+                  <img src="Thumnail\islamic.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="Thumnail\mr beast style.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="Thumnail\vlog.png" alt="" />
+                </div>
+              </div>
+
+              <div class="row align-items-center row-gap">
+                <div class="col-4">
+                  <img src="Thumnail\ancient.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="Thumnail\boxing.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="Thumnail\crypto.png" alt="" />
+                </div>
+              </div>
+
+              <div class="row align-items-center row-gap">
+                <div class="col-4">
+                  <img src="Thumnail\dhuruv.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="Thumnail\fiverr.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="Thumnail\Garage Tour.png" alt="" />
+                </div>
+              </div>
+
+              <div class="row align-items-center row-gap">
+                <div class="col-4">
+                  <img src="Thumnail\trump vs kamala.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="Thumnail\doctor.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="Thumnail\ronaldo.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reelsRow" id="reelsRow">
+            <div class="container text-center">
+              <div class="row align-items-center">
+                <div class="col-4"></div>
+                <div class="col-4">
+                  <video
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    data-bs-toggle="modal"
+                    data-bs-target="#reelVideoModal"
+                    data-video-src="reel new small size.mp4"
+                  >
+                    <source src="reel new small size.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+              <div class="col-4"></div>
+            </div>
+            <div
+              class="modal fade"
+              id="reelVideoModal"
+              tabindex="-1"
+              aria-labelledby="reelVideoModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <!-- Modal Video Player -->
+                    <video id="modalReelPlayer" controls style="width: 100%">
+                      <source src="" type="video/mp4" />
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!------------------CONTACT------------------>
+          <div class="container text-center pt-5 " id="contactDisplay">
+            <div class="row align-items-center">
+              <div class="col">
+                
+              </div>
+              <div class="col">
+                <i class="fa-solid fa-phone phoneIcon"></i>
+                <div class="vertical-line"></div>
+                <h2 style="font-size:2.7rem;">CONTACT ME</h2>
+                <p style="font-size:1.1rem;">Contact me for Hiring !</p>
+              </div>
+              <div class="col">
+                
+              </div>
+            </div>
+
+            <div class="row align-items-center pt-5 AllIcon_A_tag">
+              <div class="col">
+             <a href="http://wa.me/923250824774" target="_blank"> <i  for="WhatsApp" class="fa-brands fa-whatsapp socialIcons" style="font-size: 60px;" id="whatsApp" ></i> </a>
+                <p  style="font-size: 40px; letter-spacing:5px ;" name="WhatsApp">WhatsApp</p>
+              </div>
+
+              <div class="col">
+              <a href="https://mail.google.com/mail/u/0/#search/fmkingxd%40gmail.com?compose=new" target="_blank"> <i for="mail"  class="fa-regular fa-envelope socialIcons" style="font-size: 60px;" id="mail"></i> </a> 
+                <p style="font-size: 40px;  letter-spacing:5px ;" name="mail" >Mail</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="container text-center pt-5 ">
+            <div class="row align-items-center">
+              <div class="col-1">
+               
+              </div>
+              <div class="col-10 scoialMediaIcons">
+              <a href="https://www.instagram.com/furqan_edits_4k/profilecard" target="_blank"> 
+                 <i class="fa-brands fa-instagram socialIcons" id="instaIcon"></i>
+                 </a>
+              <a href="https://www.facebook.com/share/14nYPCgQnr/?mibextid=wwXIfr" target="_blank">
+                <i class="fa-brands fa-facebook socialIcons" id="facebookIcon"></i>
+              </a>
+              
+               <a href="https://www.linkedin.com/in/furqan-asad-5321702a9?utm_
+               source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">
+                <i class="fa-brands fa-linkedin socialIcons"  id="linkedinIcon" herf=""></i>
+              </a> 
+                
+              </div>
+              <div class="col-1">
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="container text-center pt-5">
+            <div class="row align-items-center pt-5">
+              <div class="col-1">
+              
+              </div>
+              <div class="col-10">
+                <p>@ 2024 Furqan Asad Portfilo. Develop by <b><a href="https://www.instagram.com/m_taha_880/">Taha Safdar</a></b></p>
+                
+              </div>
+              <div class="col-1">
+                
+              </div>
+            </div>
+        </div>
+      </div>
+    
+       
+        
+
+        <!-- BootStrap link JS -->
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"
+          ></script>
+        <script src="main.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
