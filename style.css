@@ -83,14 +83,14 @@ nav ul li a:hover::after {
 }
 
 .experience p {
-  font-size: 13px;
+  font-size: 1.4rem !important;
   text-shadow: 1px 1px 2px black;
 }
 .furqanText {
   color: white;
   font-weight: 600;
   text-shadow: 2px 2px 1px black;
-  font-size: 6rem;
+  font-size: 4.5rem !important;
   font-family: Arial;
   -webkit-text-stroke: 0;
   transition: 0.5s;
@@ -102,6 +102,7 @@ nav ul li a:hover::after {
   width: 25vh;
   border-radius: 20px;
   color: orange;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
   border: 2px solid orange;
   background-color: transparent;
   transition: ease ease-in-out all 0.2s;
@@ -532,31 +533,27 @@ i {
 
 @media (min-width: 1300px) {
   .experience h5 {
-    padding-top: 5%;
-    font-size: 2rem;
+    padding-top: 10%;
+    font-size: 2.9rem !important;
   }
-  .experience h1 {
-    font-size: 18vh;
-    padding-top: 5%;
+  .furqanText {
+    font-size: 4.5rem !important;
   }
   .experience p {
     font-size: 5.2vh;
-    padding-top: 5%;
   }
 }
 
 @media (min-width: 1024px) {
   .experience h5 {
-    padding-top: 5%;
-    font-size: 2rem;
+    padding-top: 9%;
+    font-size: 2.9rem !important;
   }
-  .experience h1 {
-    font-size: 16vh;
-    padding-top: 5%;
+  .furqanText {
+    font-size: 4.5rem !important;
   }
   .experience p {
-    font-size: 4.8vh;
-    padding-top: 5%;
+    font-size: 1.3rem !important;
   }
   #thumnail {
     width: 12%;
@@ -565,17 +562,16 @@ i {
 
 @media (min-width: 768px) {
   .experience h5 {
-    padding-top: 5%;
-    font-size: 2rem;
+    padding-top: 9%;
+    font-size: 20px !important;
   }
   .experience h1 {
-    font-size: 14vh;
-    padding-top: 5%;
+    font-size: 3.7rem !important;
   }
   .experience p {
-    font-size: 4.2vh;
-    padding-top: 5%;
+    font-size: 1.7rem !important;
   }
+
   #thumnail {
     width: 12%;
   }
@@ -583,16 +579,16 @@ i {
 
 @media (min-width: 600px) {
   .experience h5 {
-    padding-top: 5%;
-    font-size: 2rem;
+    padding-top: 9%;
+    font-size: 18px !important;
   }
   .experience h1 {
-    font-size: 12vh;
-    padding-top: 5%;
+    font-size: 3.5rem !important;
+    padding-top: 0%;
   }
   .experience p {
-    font-size: 3.5vh;
-    padding-top: 5%;
+    font-size: 1.5rem !important;
+    text-align: center;
   }
   .textFurqan {
     font-size: 8vh;
@@ -605,16 +601,14 @@ i {
   }
 
   .experience h5 {
-    padding-top: 4%;
-    font-size: 20px;
+    padding-top: 7%;
+    font-size: 17px !important;
   }
   .experience h1 {
-    font-size: 9vh;
-    padding-top: 4%;
+    font-size: 3.3rem !important;
   }
   .experience p {
-    font-size: 2.5vh;
-    padding-top: 4%;
+    font-size: 1.2rem !important;
   }
   .skillName {
     margin-left: 25%;
@@ -630,16 +624,14 @@ i {
 }
 @media (min-width: 200px) {
   .experience h5 {
-    padding-top: 3%;
-    font-size: 18px;
+    padding-top: 15%;
+    font-size: 17px !important;
   }
   .experience h1 {
-    font-size: 7vh;
-    padding-top: 3%;
+    font-size: 3.3rem !important;
   }
   .experience p {
-    font-size: 2.5vh;
-    padding-top: 3%;
+    font-size: 1.2rem !important;
   }
   #thumnail {
     width: 24%;
@@ -647,16 +639,14 @@ i {
 }
 @media (max-width: 450px) {
   .experience h5 {
-    padding-top: 5%;
-    font-size: 12px;
+    padding-top: 13%;
+    font-size: 17px !important;
   }
   .experience h1 {
-    font-size: 5vh;
-    padding-top: 5%;
+    font-size: 3.3rem !important;
   }
   .experience p {
-    font-size: 2vh;
-    padding-top: 5%;
+    font-size: 1.2rem !important;
   }
   #thumnail {
     width: 30%;
