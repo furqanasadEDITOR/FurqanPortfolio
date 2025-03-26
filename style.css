@@ -17,7 +17,7 @@
   height: 100%;
   object-fit: contain; /* Ensures the full image is visible */
   z-index: -1;
-  filter: blur(1.5px);
+  filter: blur(2.5px);
 }
 
 nav {
@@ -85,10 +85,10 @@ nav ul li a:hover::after {
 .experience p {
   font-size: 1.4rem !important;
   text-shadow: 1px 1px 2px black;
+  font-weight: 700;
 }
 .furqanText {
   color: white;
-  font-weight: 600;
   text-shadow: 2px 2px 1px black;
   font-size: 4.5rem !important;
   font-family: Arial;
@@ -536,9 +536,7 @@ i {
     padding-top: 10%;
     font-size: 2.9rem !important;
   }
-  .furqanText {
-    font-size: 4.5rem !important;
-  }
+
   .experience p {
     font-size: 5.2vh;
   }
@@ -549,9 +547,7 @@ i {
     padding-top: 9%;
     font-size: 2.9rem !important;
   }
-  .furqanText {
-    font-size: 4.5rem !important;
-  }
+
   .experience p {
     font-size: 1.3rem !important;
   }
@@ -565,9 +561,7 @@ i {
     padding-top: 5%;
     font-size: 20px !important;
   }
-  .experience h1 {
-    font-size: 3.7rem !important;
-  }
+
   .experience p {
     font-size: 1.7rem !important;
   }
@@ -582,10 +576,7 @@ i {
     padding-top: 4%;
     font-size: 18px !important;
   }
-  .experience h1 {
-    font-size: 3.5rem !important;
-    padding-top: 0%;
-  }
+
   .experience p {
     font-size: 1.5rem !important;
     text-align: center;
@@ -604,9 +595,7 @@ i {
     padding-top: 3%;
     font-size: 17px !important;
   }
-  .experience h1 {
-    font-size: 3.3rem !important;
-  }
+
   .experience p {
     font-size: 1.2rem !important;
   }
@@ -628,7 +617,8 @@ i {
     font-size: 17px !important;
   }
   .experience h1 {
-    font-size: 3.3rem !important;
+    font-weight: 600;
+    font-size: 2.8rem !important;
   }
   .experience p {
     font-size: 1.2rem !important;
@@ -642,9 +632,7 @@ i {
     padding-top: 7%;
     font-size: 17px !important;
   }
-  .experience h1 {
-    font-size: 3.3rem !important;
-  }
+
   .experience p {
     font-size: 1.2rem !important;
   }
@@ -658,5 +646,31 @@ i {
 @media (max-width: 200px) {
   .card-container {
     margin-left: 20%;
+  }
+}
+/*Text size of div 1*/
+@media (min-width: 600px) {
+  .experience h5 {
+    font-size: 1rem !important;
+  }
+  .experience h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .experience h5 {
+    font-size: 1.2rem !important;
+  }
+  .experience h1 {
+    font-size: 4.2rem !important;
+  }
+}
+@media (min-width: 1024px) {
+  .experience h5 {
+    font-size: 1.4rem !important;
+  }
+  .experience h1 {
+    font-size: 5.5rem !important;
+    font-weight: 600 !important;
   }
 }
