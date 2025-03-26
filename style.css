@@ -562,7 +562,7 @@ i {
 
 @media (min-width: 768px) {
   .experience h5 {
-    padding-top: 9%;
+    padding-top: 5%;
     font-size: 20px !important;
   }
   .experience h1 {
@@ -579,7 +579,7 @@ i {
 
 @media (min-width: 600px) {
   .experience h5 {
-    padding-top: 9%;
+    padding-top: 4%;
     font-size: 18px !important;
   }
   .experience h1 {
@@ -601,7 +601,7 @@ i {
   }
 
   .experience h5 {
-    padding-top: 7%;
+    padding-top: 3%;
     font-size: 17px !important;
   }
   .experience h1 {
